@@ -1,0 +1,29 @@
+.container{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.some-text{
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+.d2{
+  border: 1px solid #cccccc;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  transition: 0.9s;
+  width: 300px;
+}
+.d2:hover{
+  transition: 0.7s;
+  box-shadow: 5px 7px 11px #ccc;
+}
+.d2 p{
+  font-size: 21px;
+  font-style: italic;
+  text-shadow: 5px 7px #ccc;
+}

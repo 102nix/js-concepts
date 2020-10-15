@@ -1,0 +1,29 @@
+.controls{
+  width: 25%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 0.3px solid #000;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 3px 5px 17px #000;
+  margin-bottom: 25px;
+}
+.controls span{
+  margin: 0 5px 0 5px;
+}
+.btn{
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 7px 35px;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.btn:hover{
+  box-shadow: 1px 3px 5px #000;
+  transition: 0.3s;
+}
+.content{
+  padding: 10px;
+}
