@@ -1,14 +1,14 @@
-function calcValues (a, b) {
-  return [
-    a + b,
-    a - b,
-    a * b,
-    a / b
-  ]
-}
+// function calcValues (a, b) {
+//   return [
+//     a + b,
+//     a - b,
+//     a * b,
+//     a / b
+//   ]
+// }
 
-const [sum, sub = 'Вычисления нет', ...other] = calcValues(42, 10)
-console.log(sum, sub, other)
+// const [sum, sub = 'Вычисления нет', ...other] = calcValues(42, 10)
+// console.log(sum, sub, other)
 
 const person = {
   name: 'Max',

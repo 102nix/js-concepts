@@ -1,9 +1,11 @@
 let fontSize = 16;
+
 const updateFontSize = () => {
   localStorage.setItem('font-size', fontSize);
   document.body.style.fontSize = fontSize + 'px';
   document.querySelector('span').textContent = fontSize;
 }
+
 if (localStorage.getItem('font-size')) {
   fontSize = localStorage.getItem('font-size')
 }

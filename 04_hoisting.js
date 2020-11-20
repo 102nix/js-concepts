@@ -14,13 +14,13 @@
 
 // function expression & function declaration
 
+// console.log(square(5))
 
 // function square (num) {
 //   return num ** 2
 // }
 
-const square = function (num) {
-  return num ** 2
-}
+// const square = function (num) {
+//   return num ** 2
+// }
 
-console.log(square(5))
